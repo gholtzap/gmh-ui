@@ -29,6 +29,7 @@ Build the smallest complete user task. Make the UI clear before you style it. Fo
 - Use SF Pro as the primary font family. Use regular and medium weights only.
 - Use 13px as the base size. Use only 12px, 13px, 14px, 16px, 18px, and 24px. Do not use a size above 24px, including for titles.
 - Never make a custom SVG icon. Use `@nucleoicons` for each needed icon, with a 1px stroke. Keep icons quiet and aligned with the 13px base size.
+- Prefer icon buttons with tooltips over text buttons when the icon clearly identifies the action. Give each icon button an accessible name and make its label available on touch screens.
 - Do not use Unicode characters, text symbols, or emoji in place of icons. If `@nucleoicons` is not available, use a clear text label or remove the icon. Do not add an icon package for a control that does not need an icon.
 - Avoid terminal-style UI. Use sentence-case sans-serif text; reserve monospace for actual code, JSON, commands, and identifiers. Do not use all-caps labels, eyebrow text, or decorative status metadata.
 
