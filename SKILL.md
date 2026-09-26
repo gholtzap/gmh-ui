@@ -23,7 +23,6 @@ Build the smallest complete user task. Make the UI clear before you style it. Fo
 - Inspect the existing routes, components, state, and data before adding UI. Reuse a matching component or improve a shared UI part when that makes the current task simpler.
 - Prefer ready-made components from [Kumo by Cloudflare](https://github.com/cloudflare/kumo), [Beautiful UI](https://beautifului.dev/), [beUI](https://beui.dev/), [Rare UI](https://rareui.com/), [Transitions](https://transitions.dev/), and [shadcn/ui](https://ui.shadcn.com/) when they fit the product and its stack. Check that the component works with the required behavior, access needs, and visual rules. Use motion only when it helps the user see a change or result.
 - Use a 4px spacing grid. Use 8px between related items, 16px between groups, and 24px between main sections. Align related text and controls to shared edges; adjust only when content needs more room.
-- For dashboards, use [generic-dashboard-ui](https://github.com/gholtzap/generic-dashboard-ui) and [Lux](https://luxagent.dev/) as visual references. Keep the current color mode. Put state, the next action, and the main result near the top. Show detail when the user asks for it.
 
 ## Type and icons
 
